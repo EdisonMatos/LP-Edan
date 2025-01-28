@@ -1,1 +1,1 @@
-# LP-Edan
+# Landpage Edan

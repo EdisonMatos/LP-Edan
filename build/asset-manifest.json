@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.544f8361.css",
+    "main.js": "/static/js/main.980a5642.js",
+    "static/js/787.61505e95.chunk.js": "/static/js/787.61505e95.chunk.js",
+    "static/media/whatsappGif.gif": "/static/media/whatsappGif.30f41c340bc896725260.gif",
+    "static/media/AwardsEDAN.png": "/static/media/AwardsEDAN.db308cfb43c91633e62c.png",
+    "static/media/appScreens.png": "/static/media/appScreens.c46e0b0ccc0cc6fb22eb.png",
+    "static/media/Logo.png": "/static/media/Logo.a3d3774e983539f0b22a.png",
+    "static/media/certidaoTrabalhista.png": "/static/media/certidaoTrabalhista.43d75c89da9c675693ab.png",
+    "static/media/receitaFederal.png": "/static/media/receitaFederal.9bdabe630dd5b4b8d32d.png",
+    "static/media/avatar2.png": "/static/media/avatar2.58682c3e2dd5f9d8bc21.png",
+    "static/media/paralaxeBg1.jpg": "/static/media/paralaxeBg1.346c2b202c964ff223db.jpg",
+    "static/media/avatar3.png": "/static/media/avatar3.1eb0cb84172d390869cd.png",
+    "static/media/appUtilities2.png": "/static/media/appUtilities2.dee73817c491d1e64e06.png",
+    "static/media/sefazRJ.png": "/static/media/sefazRJ.fc0fd332bdc52a2b14b6.png",
+    "static/media/avatar.png": "/static/media/avatar.3bb5621dbc6857419b89.png",
+    "static/media/MapaBrasil.png": "/static/media/MapaBrasil.cdbae3bd602ba15863a0.png",
+    "static/media/certidaoFalencia.png": "/static/media/certidaoFalencia.c36cfbbac9198e4816c1.png",
+    "static/media/edilson.png": "/static/media/edilson.bf632e97bf90463aab24.png",
+    "static/media/inssInformeDeRendimentos.png": "/static/media/inssInformeDeRendimentos.cfd692f33c20c00b6f61.png",
+    "static/media/govBr.png": "/static/media/govBr.68526023b0170e07e5d6.png",
+    "static/media/fgts.png": "/static/media/fgts.3da5ef940b84843b4eb9.png",
+    "static/media/sefazSP.png": "/static/media/sefazSP.aee31ba15771f2ebf7f2.png",
+    "static/media/WhatsAppIcon.png": "/static/media/WhatsAppIcon.e84777018ac3307894fd.png",
+    "index.html": "/index.html",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.544f8361.css.map": "/static/css/main.544f8361.css.map",
+    "main.980a5642.js.map": "/static/js/main.980a5642.js.map",
+    "787.61505e95.chunk.js.map": "/static/js/787.61505e95.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.544f8361.css",
+    "static/js/main.980a5642.js"
+  ]
+}
