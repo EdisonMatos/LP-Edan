@@ -24,6 +24,11 @@ export default function FooterSection() {
               text="Av. Lótus, 23 - Nelson Costa, Ilhéus - BA, CEP 45656-000."
             />
             <HonrizontalIconAndText
+              img={imgHome}
+              imgAlt="Edan Home Contabilidade Ilhéus"
+              text="Av. Lótus, 23 - Nelson Costa, Ilhéus - BA, CEP 45656-000."
+            />
+            <HonrizontalIconAndText
               img={imgWhatsapp}
               imgAlt="Edan Whatsapp Contabilidade Ilhéus"
               text="(73) 9.9961-2263"
