@@ -24,15 +24,6 @@ export default function LinksSection() {
       <SectionContent>
         {[
           <ImgAndTitleCard
-            key={1}
-            img={imgInscricaoEstadual}
-            imgDescription="Edan SEFAZ Contabilidade Ilhéus"
-            title="Inscrição Estadual"
-            target="_blank"
-            rel="noopener noreferrer"
-            link="https://portal.sefaz.ba.gov.br/scripts/cadastro/cadastroBa/consultaBa.asp"
-          />,
-          <ImgAndTitleCard
             key={10}
             img={imgCartaoCnpj}
             imgDescription="Edan Cartão CNPJ Contabilidade Ilhéus"
@@ -40,6 +31,15 @@ export default function LinksSection() {
             target="_blank"
             rel="noopener noreferrer"
             link="https://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp?cnpj=10949168000100"
+          />,
+          <ImgAndTitleCard
+            key={1}
+            img={imgInscricaoEstadual}
+            imgDescription="Edan SEFAZ Contabilidade Ilhéus"
+            title="Inscrição Estadual"
+            target="_blank"
+            rel="noopener noreferrer"
+            link="https://portal.sefaz.ba.gov.br/scripts/cadastro/cadastroBa/consultaBa.asp"
           />,
           <ImgAndTitleCard
             key={3}
