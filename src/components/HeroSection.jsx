@@ -6,7 +6,6 @@ import ImageGallery from "react-image-gallery";
 import heroImg2 from "../style/assets/images/hero/imgHero2.jpg";
 import heroImg3 from "../style/assets/images/hero/imgHero3.jpg";
 import heroImg4 from "../style/assets/images/hero/imgHero4.png";
-
 import "react-image-gallery/styles/css/image-gallery.css";
 import Button from "./interactives/Button";
 

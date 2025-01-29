@@ -87,7 +87,7 @@ export default function AboutSection() {
           <MotionDivRightToLeft>
             <div className="flex flex-wrap justify-between w-full h-auto">
               <h1 className="my-4 mt-12 text-xl font-semibold tablet2:mt-0 font-poppins text-secondary">
-                Onde nos encontrar no Nelson Costa
+                Onde nos encontrar na  Zona Sul
               </h1>
               <div className="w-full border-b-8 border-primary">
                 <iframe
