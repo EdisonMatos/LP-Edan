@@ -33,13 +33,13 @@ export default function LinksSection() {
             link="https://portal.sefaz.ba.gov.br/scripts/cadastro/cadastroBa/consultaBa.asp"
           />,
           <ImgAndTitleCard
-            key={2}
-            img={imgPedidoViabilidade}
-            imgDescription="Edan Juceb Contabilidade Ilhéus"
-            title="Pedido de Viabilidade"
+            key={10}
+            img={imgCartaoCnpj}
+            imgDescription="Edan Cartão CNPJ Contabilidade Ilhéus"
+            title="Cartão CNPJ"
             target="_blank"
             rel="noopener noreferrer"
-            link="http://regin.juceb.ba.gov.br/regin.ba/CON_ViabilidadeSelecaoExternoV2.aspx?"
+            link="https://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp?cnpj=10949168000100"
           />,
           <ImgAndTitleCard
             key={3}
@@ -105,13 +105,13 @@ export default function LinksSection() {
             link="http://ilheus.metropolisweb.com.br:83/metropolisWEB/"
           />,
           <ImgAndTitleCard
-            key={10}
-            img={imgCartaoCnpj}
-            imgDescription="Edan Cartão CNPJ Contabilidade Ilhéus"
-            title="Cartão CNPJ"
+            key={2}
+            img={imgPedidoViabilidade}
+            imgDescription="Edan Juceb Contabilidade Ilhéus"
+            title="Pedido de Viabilidade"
             target="_blank"
             rel="noopener noreferrer"
-            link="https://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp?cnpj=10949168000100"
+            link="http://regin.juceb.ba.gov.br/regin.ba/CON_ViabilidadeSelecaoExternoV2.aspx?"
           />,
           <ImgAndTitleCard
             key={11}
