@@ -80,7 +80,7 @@ export default function NavbarSection() {
             <img
               src={Logo}
               alt="Logo Edan"
-              className="absolute left-0 h-10 -mt-4 tablet3:mb-0"
+              className="absolute left-0 h-10 -mt-5 tablet3:mb-0"
             />
           </Link>
           <button
