@@ -31,7 +31,7 @@ export default function WppSection() {
                   label="Clique aqui"
                   buttonLink="https://wa.me/5573999612263"
                   animation
-                  className="w-[90%]"
+                  className="text-white"
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
