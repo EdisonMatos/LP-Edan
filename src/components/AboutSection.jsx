@@ -1,5 +1,5 @@
 import React from "react";
-import Brasil from "../style/assets/images/sobre/MapaBrasil.png";
+// import Brasil from "../style/assets/images/sobre/MapaBrasil.png";
 import Awards from "../style/assets/images/sobre/AwardsEDAN.png";
 import SectionHeader from "./SectionComponents/SectionHeader";
 import SectionContent from "./SectionComponents/SectionContent";

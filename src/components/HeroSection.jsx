@@ -1,5 +1,5 @@
 import bgImage from "../style/assets/images/paralaxe/paralaxeBg1.jpg";
-import WhatsappForm from "./SectionComponents/WhatsappForm";
+// import WhatsappForm from "./SectionComponents/WhatsappForm";
 import MotionDivLeftToRight from "./SectionComponents/MotionDivLeftToRight";
 import MotionDivRightToLeft from "./SectionComponents/MotionDivRightToLeft";
 import ImageGallery from "react-image-gallery";
