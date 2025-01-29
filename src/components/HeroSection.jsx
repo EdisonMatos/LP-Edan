@@ -11,7 +11,6 @@ import heroImg4 from "../style/assets/images/hero/imgHero4.png";
 import "react-image-gallery/styles/css/image-gallery.css";
 import WhatsAppIcon from "../style/assets/icons/WhatsAppIcon.png";
 
-
 export default function HeroSection() {
   const images = [
     {
@@ -55,16 +54,8 @@ export default function HeroSection() {
                     os desafios contábeis do seu negócio.
                   </MotionDivLeftToRight>
                 </p>
-              </div>
-            </div>
-            <div className="w-full mb-16 tablet2:w-auto phone1:mt-0 tablet1:ml-[8%]">
-              <MotionDivRightToLeft>
-                {/* Aqui está o WhatsAppForm comentado */}
-                {/* <WhatsappForm /> */}
-                {/* Agora passamos o array de imagens para o ImageGallery */}
-                <ImageGallery items={images} />
                 <MotionDivLeftToRight>
-                  <div className="w-full flex justify-center">
+                  <div className="w-full ">
                     <a
                       href="https://wa.me/5573999612263"
                       className="flex flex-row items-center justify-around w-[90%] h-8 mt-4 phone1:h-[30px] phone3:h-[40px] px-1 transition rounded-lg max-w-32 tablet1:h-[50px] phone3:max-w-48 tablet1:max-w-60 phone3:w-[90%] bg-primary hover:bg-secondary"
@@ -82,6 +73,14 @@ export default function HeroSection() {
                     </a>
                   </div>
                 </MotionDivLeftToRight>
+              </div>
+            </div>
+            <div className="w-full mb-16 tablet2:w-auto phone1:mt-0 tablet1:ml-[8%]">
+              <MotionDivRightToLeft>
+                {/* Aqui está o WhatsAppForm comentado */}
+                {/* <WhatsappForm /> */}
+                {/* Agora passamos o array de imagens para o ImageGallery */}
+                <ImageGallery items={images} />
               </MotionDivRightToLeft>
             </div>
           </div>
