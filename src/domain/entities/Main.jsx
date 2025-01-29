@@ -8,7 +8,7 @@ import WppSection from "../../components/WppSection";
 import BackToTopButton from "../../components/BackToTopButton";
 import FloatingWhatsappButton from "../../components/FloatingWhatsappButton";
 import ResultsSection from "../../components/ResultsSection";
-import ParallaxSectionWithContent from "../../components/SectionComponents/ParallaxSectionWithContent";
+// import ParallaxSectionWithContent from "../../components/SectionComponents/ParallaxSectionWithContent";
 import MarginBetweenSection from "../../components/SectionComponents/MarginBetweenSection";
 import MarginBetweenSectionColored from "../../components/SectionComponents/MarginBetweenSectionColored";
 
