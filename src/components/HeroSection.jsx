@@ -3,14 +3,18 @@ import bgImage from "../style/assets/images/paralaxe/paralaxeBg1.jpg";
 import MotionDivLeftToRight from "./SectionComponents/MotionDivLeftToRight";
 import MotionDivRightToLeft from "./SectionComponents/MotionDivRightToLeft";
 import ImageGallery from "react-image-gallery";
-import heroImg2 from "../style/assets/images/hero/imgHero2.jpg";
-import heroImg3 from "../style/assets/images/hero/imgHero3.jpg";
-import heroImg4 from "../style/assets/images/hero/imgHero4.png";
+import heroImg1 from "../style/assets/images/hero/imgHero2.jpg";
+import heroImg2 from "../style/assets/images/hero/imgHero3.jpg";
+import heroImg3 from "../style/assets/images/hero/imgHero4.png";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Button from "./interactives/Button";
 
 export default function HeroSection() {
   const images = [
+    {
+      original: heroImg1,
+      thumbnail: heroImg1,
+    },
     {
       original: heroImg2,
       thumbnail: heroImg2,
@@ -18,10 +22,6 @@ export default function HeroSection() {
     {
       original: heroImg3,
       thumbnail: heroImg3,
-    },
-    {
-      original: heroImg4,
-      thumbnail: heroImg4,
     },
   ];
 
@@ -83,18 +83,18 @@ export default function HeroSection() {
 
                 <style>
                   {`
-    .custom-gallery .image-gallery-slide img {
-      height: 230px; 
-      width: 400px;
-      object-fit: cover;
-    }
+                    .custom-gallery .image-gallery-slide img {
+                      height: 230px; 
+                      width: 400px;
+                      object-fit: cover;
+                    }
 
-    .custom-gallery .image-gallery-thumbnails img {
-      height: 60px;  
-      width: 100px;  
-      object-fit: cover; 
-    }
-  `}
+                    .custom-gallery .image-gallery-thumbnails img {
+                      height: 60px;  
+                      width: 100px;  
+                      object-fit: cover; 
+                    }
+                  `}
                 </style>
               </MotionDivRightToLeft>
             </div>
