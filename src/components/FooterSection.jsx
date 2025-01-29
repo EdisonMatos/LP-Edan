@@ -21,17 +21,25 @@ export default function FooterSection() {
             <HonrizontalIconAndText
               img={imgHome}
               imgAlt="Edan Home Contabilidade Ilhéus"
-              text="Zona Sul: Av. Lótus, 23 - Nelson Costa, Ilhéus - BA, CEP 45656-000."
+              text={
+                <>
+                  Zona Sul: <br />
+                  Av. Lótus, 23 - Nelson Costa, <br />
+                  Ilhéus - BA, CEP 45656-000.
+                </>
+              }
             />
             <HonrizontalIconAndText
               img={imgHome}
               imgAlt="Edan Home Contabilidade Ilhéus"
-              text="Centro:
-R. Alm. Barroso (Calçadão), nº 137 - Sala 102 - Edifício Paranaguá
-Ilhéus - BA, CEP 45653-135.
-"
+              text={
+                <>
+                  Centro: <br /> R. Alm. Barroso (Calçadão), <br /> nº 137 -
+                  Sala 102 - Edifício Paranaguá Ilhéus - BA, CEP 45653-135.
+                </>
+              }
             />
-            <HonrizontalIconAndText  
+            <HonrizontalIconAndText
               img={imgWhatsapp}
               imgAlt="Edan Whatsapp Contabilidade Ilhéus"
               text="(73) 9.9961-2263"
