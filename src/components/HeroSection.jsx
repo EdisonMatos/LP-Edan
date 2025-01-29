@@ -77,9 +77,12 @@ export default function HeroSection() {
             </div>
             <div className="w-full mb-16 tablet2:w-auto phone1:mt-0 tablet1:ml-[8%]">
               <MotionDivRightToLeft>
-                {/* Aqui está o WhatsAppForm comentado */}
                 {/* <WhatsappForm /> */}
-                {/* Agora passamos o array de imagens para o ImageGallery */}
+                <p className="text-paragraph3 tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4">
+                  <MotionDivLeftToRight>
+                  Confira novo escritório no Centro
+                  </MotionDivLeftToRight>
+                </p>
                 <ImageGallery items={images} />
               </MotionDivRightToLeft>
             </div>
