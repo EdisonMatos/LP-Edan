@@ -61,13 +61,13 @@ export default function HeroSection() {
                   <div className="w-full flex justify-center">
                     <a
                       href="https://wa.me/5573999612263"
-                      className="flex flex-row items-center justify-around w-[90%] h-8 phone1:h-10 px-1 transition rounded-lg max-w-32 tablet1:h-18 phone3:max-w-48 tablet1:max-w-60 phone3:w-[90%] bg-primary hover:bg-secondary"
+                      className="flex flex-row items-center justify-around w-[90%] h-8 mt-4 phone1:h-[30px] phone3:h-[40px] px-1 transition rounded-lg max-w-32 tablet1:h-[50px] phone3:max-w-48 tablet1:max-w-60 phone3:w-[90%] bg-primary hover:bg-secondary"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <img
                         src={WhatsAppIcon}
-                        className="h-5 tablet1:h-10"
+                        className="h-5 phone3:h-7 tablet1:h-9"
                         alt="WhatsApp Icon"
                       ></img>
                       <p className="text-white text-paragraph1 phone1:text-paragraph3 phone3:text-paragraph5 tablet1:pr-[3%] tablet1:font-bold tablet1:text-title2">
