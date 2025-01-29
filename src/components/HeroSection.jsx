@@ -26,6 +26,10 @@ export default function HeroSection() {
       original: heroImg3,
       thumbnail: heroImg3,
     },
+    {
+      original: heroImg4,
+      thumbnail: heroImg4,
+    },
   ];
 
   return (
