@@ -3,9 +3,11 @@ import bgImage from "../style/assets/images/paralaxe/paralaxeBg1.jpg";
 import MotionDivLeftToRight from "./SectionComponents/MotionDivLeftToRight";
 import MotionDivRightToLeft from "./SectionComponents/MotionDivRightToLeft";
 import ImageGallery from "react-image-gallery";
-import heroImg from "../style/assets/images/hero/hero1.jpeg";
-import heroImg2 from "../style/assets/images/hero/hero2.jpeg";
-import heroImg3 from "../style/assets/images/hero/hero3.jpeg";
+import heroImg from "../style/assets/images/hero/imgHero.jpg";
+import heroImg2 from "../style/assets/images/hero/imgHero2.jpg";
+import heroImg3 from "../style/assets/images/hero/imgHero3.jpg";
+import heroImg4 from "../style/assets/images/hero/imgHero4.png";
+
 import "react-image-gallery/styles/css/image-gallery.css";
 import WhatsAppIcon from "../style/assets/icons/WhatsAppIcon.png";
 
