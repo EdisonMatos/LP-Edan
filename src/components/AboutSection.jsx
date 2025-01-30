@@ -71,7 +71,7 @@ export default function AboutSection() {
           <MotionDivRightToLeft>
             <div className="flex flex-wrap justify-between w-full h-auto">
               <h1 className="my-4 mt-12 text-xl font-semibold tablet2:mt-0 font-poppins text-secondary">
-                Onde nos encontrar no Centro de Ilhéus
+                Onde nos encontrar na Zona Sul
               </h1>
               <div className="w-full border-b-8 border-primary">
                 <iframe
@@ -87,13 +87,13 @@ export default function AboutSection() {
           <MotionDivRightToLeft>
             <div className="flex flex-wrap justify-between w-full h-auto">
               <h1 className="my-4 mt-12 text-xl font-semibold tablet2:mt-0 font-poppins text-secondary">
-                Onde nos encontrar na  Zona Sul
+                Onde nos encontrar no Centro de Ilhéus
               </h1>
               <div className="w-full border-b-8 border-primary">
                 <iframe
                   className="w-full"
                   title="GoogleMaps"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.0757758120135!2d-39.03699242413275!3d-14.821004699742826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7390a5df4a80977%3A0x283de9a3dd4420ba!2sEdan%20Contabilidade!5e0!3m2!1spt-BR!2sbr!4v1706652415211!5m2!1spt-BR!2sbr"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.4829247179637!2d-39.0348279!3d-14.798130299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7390a675868e87f%3A0x42f04327833e4934!2sCondom%C3%ADnio%20Edif%C3%ADcio%20Paranagua%20-%20R.%20Alm.%20Barroso%2C%20137%20-%20Centro%2C%20Ilh%C3%A9us%20-%20BA%2C%2045653-135!5e0!3m2!1spt-BR!2sbr!4v1738275805438!5m2!1spt-BR!2sbr"
                   height="300"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>

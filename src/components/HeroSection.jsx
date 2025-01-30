@@ -29,12 +29,12 @@ export default function HeroSection() {
     <div className="content" id="home">
       <div className="h-auto full">
         <div
-          className="w-full bg-center bg-cover content md:min-h-0"
+          className="w-full bg-center bg-cover pb-[80px] content md:min-h-0"
           style={{ backgroundImage: "url(" + bgImage + ")" }}
         >
           <div className="flex flex-wrap items-center justify-between w-full h-full mt-12 text-white tablet1:flex-nowrap font-poppins">
             <div className="w-full tablet2:flex-1 tablet2:mr-11">
-              <div className="mt-16 tablet1:h-96">
+              <div className="mt-16 tablet1:mt-4 tablet2:mt-16 tablet1:h-96">
                 <h1 className="mb-2 font-bold leading-7 text-title4 phone3:text-title7 phone3:leading-[60px] tablet1:leading-none tablet1:text-title6 tablet2:text-title6">
                   <MotionDivLeftToRight>Solução e</MotionDivLeftToRight>
                 </h1>
@@ -51,10 +51,10 @@ export default function HeroSection() {
                 <MotionDivLeftToRight>
                   <Button
                     aria-label="Botão de contato"
-                    label="Clique aqui"
+                    label="Falar no Whatsapp"
                     buttonLink="https://wa.me/5573999612263"
                     animation
-                    className="w-[100%] mt-4"
+                    className="w-auto mt-4"
                     icon={
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -73,14 +73,13 @@ export default function HeroSection() {
             </div>
             <div className="w-full tablet2:w-auto phone1:mt-0 tablet1:ml-[8%]">
               <MotionDivRightToLeft>
-                {/* <WhatsappForm /> */}
-                <p className="text-paragraph3 tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4">
-                  <MotionDivLeftToRight>
-                    Confira novo escritório no Centro
-                  </MotionDivLeftToRight>
-                </p>
+                {/* <WhatsappForm /> */}{" "}
+                <MotionDivLeftToRight>
+                  <p className="text-paragraph3 pb-6 tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4">
+                    Confira nosso novo escritório no Centro 👇
+                  </p>
+                </MotionDivLeftToRight>
                 <ImageGallery items={images} additionalClass="custom-gallery" />
-
                 <style>
                   {`
                     .custom-gallery .image-gallery-slide img {
