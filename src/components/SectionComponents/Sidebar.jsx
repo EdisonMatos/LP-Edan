@@ -85,20 +85,20 @@ export default function Sidebar({ showSidebar }) {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://portal.sefaz.ba.gov.br/scripts/cadastro/cadastroBa/consultaBa.asp"
+                        href="https://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp?cnpj=10949168000100"
                         className="hover:text-primary"
                       >
-                        Inscrição Estadual
+                        Cartão CNPJ
                       </a>
                     </li>
                     <li className="mb-2">
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://regin.juceb.ba.gov.br/regin.ba/CON_ViabilidadeSelecaoExternoV2.aspx?"
+                        href="https://portal.sefaz.ba.gov.br/scripts/cadastro/cadastroBa/consultaBa.asp"
                         className="hover:text-primary"
                       >
-                        Pedido de Viabilidade
+                        Inscrição Estadual
                       </a>
                     </li>
                     <li className="mb-2">
@@ -175,10 +175,10 @@ export default function Sidebar({ showSidebar }) {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp?cnpj=10949168000100"
+                        href="http://regin.juceb.ba.gov.br/regin.ba/CON_ViabilidadeSelecaoExternoV2.aspx?"
                         className="hover:text-primary"
                       >
-                        Cartão CNPJ
+                        Pedido de Viabilidade
                       </a>
                     </li>
                     <li className="mb-2">
