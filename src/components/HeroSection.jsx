@@ -84,7 +84,7 @@ export default function HeroSection() {
                   {`
                     .custom-gallery .image-gallery-slide img {
                       height: 230px; 
-                      width: 400px;
+                      width: 100%;
                       object-fit: cover;
                     }
 
