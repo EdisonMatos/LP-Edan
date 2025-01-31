@@ -38,23 +38,23 @@ export default function HeroSection() {
                 <h1 className="mb-2 font-bold leading-7 text-title4 phone3:text-title7 phone3:leading-[60px] tablet1:leading-none tablet1:text-title6 tablet2:text-title6">
                   <MotionDivLeftToRight>Solução e</MotionDivLeftToRight>
                 </h1>
-                <h1 className="font-bold leading-7 mb-9 text-title4 phone3:text-title7 phone3:leading-[60px] tablet1:leading-none tablet1:text-title6 tablet2:text-title6">
+                <h1 className="font-bold leading-7 mb-8 text-title4 phone3:text-title7 phone3:leading-[60px] tablet1:leading-none tablet1:text-title6 tablet2:text-title6">
                   <MotionDivLeftToRight>Resultado!</MotionDivLeftToRight>
-                </h1>
-                <p className="text-paragraph3 tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4">
-                  <MotionDivLeftToRight>
+                </h1><MotionDivLeftToRight>
+                <p className="text-paragraph3 mb-[32px] tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4">
+                  
                     Experiência que Conta! Com mais de 40 anos no mercado
                     empresarial, oferecemos conhecimento sólido para lidar com
                     os desafios contábeis do seu negócio.
-                  </MotionDivLeftToRight>
-                </p>
+                  
+                </p></MotionDivLeftToRight>
                 <MotionDivLeftToRight>
                   <Button
                     aria-label="Botão de contato"
                     label="Falar no Whatsapp"
                     buttonLink="https://wa.me/5573999612263"
                     animation
-                    className="w-auto mt-4"
+                    className="w-auto mb-[8px] flex"
                     icon={
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
