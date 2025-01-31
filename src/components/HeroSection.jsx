@@ -5,7 +5,7 @@ import MotionDivRightToLeft from "./SectionComponents/MotionDivRightToLeft";
 import ImageGallery from "react-image-gallery";
 import heroImg1 from "../style/assets/images/hero/imgHero2.jpg";
 import heroImg2 from "../style/assets/images/hero/imgHero3.jpg";
-import heroImg3 from "../style/assets/images/hero/imgHero4.png";
+import heroImg3 from "../style/assets/images/hero/imgHero4.jpg";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Button from "./interactives/Button";
 
@@ -40,14 +40,14 @@ export default function HeroSection() {
                 </h1>
                 <h1 className="font-bold leading-7 mb-8 text-title4 phone3:text-title7 phone3:leading-[60px] tablet1:leading-none tablet1:text-title6 tablet2:text-title6">
                   <MotionDivLeftToRight>Resultado!</MotionDivLeftToRight>
-                </h1><MotionDivLeftToRight>
-                <p className="text-paragraph3 mb-[32px] tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4">
-                  
+                </h1>
+                <MotionDivLeftToRight>
+                  <p className="text-paragraph3 mb-[32px] tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4">
                     Experiência que Conta! Com mais de 40 anos no mercado
                     empresarial, oferecemos conhecimento sólido para lidar com
                     os desafios contábeis do seu negócio.
-                  
-                </p></MotionDivLeftToRight>
+                  </p>
+                </MotionDivLeftToRight>
                 <MotionDivLeftToRight>
                   <Button
                     aria-label="Botão de contato"
@@ -79,7 +79,14 @@ export default function HeroSection() {
                     Confira nosso novo escritório no Centro 👇
                   </p>
                 </MotionDivLeftToRight>
-                <ImageGallery items={images} additionalClass="custom-gallery" />
+                <ImageGallery
+                  items={images}
+                  showNav={true} // Ativando a navegação
+                  showFullscreenButton={false} // Desativando botão de tela cheia
+                  useBrowserFullscreen={false} // Desativando o uso de tela cheia do navegador
+                  showBullets={true} 
+                  additionalClass="custom-gallery"
+                />
                 <style>
                   {`
                     .custom-gallery .image-gallery-slide img {
