@@ -71,7 +71,7 @@ export default function NavbarSection() {
         <Navbar>
           <Link
             to="home"
-            className="cursor-pointer"
+            className="cursor-pointer "
             spy={true}
             smooth={true}
             duration={500}
@@ -80,7 +80,7 @@ export default function NavbarSection() {
             <img
               src={Logo}
               alt="Logo Edan"
-              className="absolute left-0 h-10 -mt-5 tablet3:mb-0"
+              className="absolute w-[50%] phone2:w-[40%] phone3:w-[35%] tablet1:w-[25%] tablet2:w-[15%] left-0 h-auto -mt-5 tablet3:mb-0"
             />
           </Link>
           <button
