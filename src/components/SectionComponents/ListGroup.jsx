@@ -21,7 +21,7 @@ export default function ListGroup() {
 
   return (
     <ul
-      className={`flex items-center justify-end gap-8 w-full h-auto font-bold text-sm font-poppins ${
+      className={`hidden desktop1:flex items-center justify-end gap-8 min-w-[550px] h-auto font-bold text-sm font-poppins ${
         scrolling
           ? "text-black transition-color duration-500"
           : "text-white transition-color duration-500"
@@ -39,7 +39,7 @@ export default function ListGroup() {
       </Link>
       <Link
         to="about"
-        className="cursor-pointer"
+        className="cursor-pointer text-center"
         spy={true}
         smooth={true}
         duration={500}

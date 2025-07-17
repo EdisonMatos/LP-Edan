@@ -23,7 +23,7 @@ export default function Sidebar({ showSidebar }) {
     >
       <div className="mx-auto">
         <div
-          className={`flex h-auto w-64 phone2:w-80 phone3:w-80 px-12 py-6 mx-auto bg-white font-poppins ${
+          className={`flex h-auto w-64 phone2:w-80 phone3:w-96 px-12 py-6 mx-auto bg-white font-poppins ${
             showSublistServices || showSublistLinks ? "mb-16" : ""
           }`}
         >

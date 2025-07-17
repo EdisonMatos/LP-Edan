@@ -4,7 +4,8 @@ import Logo from "../style/assets/images/Logo.png";
 import ListGroup from "./SectionComponents/ListGroup";
 import Sidebar from "./SectionComponents/Sidebar";
 import { Menu, X } from "lucide-react";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 
 export default function NavbarSection() {
   const [scrolling, setScrolling] = useState(false);
@@ -62,45 +63,51 @@ export default function NavbarSection() {
   return (
     <div className="content">
       <div
-        className={`fixed z-10 w-full h-auto desktop1:h-20 bg-white bg-opacity-0 ${
+        className={`fixed z-10 w-full h-auto desktop1:h-25 bg-white bg-opacity-0 ${
           scrolling
             ? "bg-opacity-100 shadow-lg bg-transition-opacity duration-1000"
             : ""
         }`}
       >
         <Navbar>
-          <Link
-            to="home"
-            className="cursor-pointer "
-            spy={true}
-            smooth={true}
-            duration={500}
-            offset={-100}
-          >
-            <img
-              src={Logo}
-              alt="Logo Edan"
-              className="absolute w-[50%] phone2:w-[40%] phone3:w-[35%] tablet1:w-[25%] tablet2:w-[15%] left-0 h-auto -mt-5 tablet3:mb-0"
-            />
-          </Link>
-          <button
-            onClick={toggleSidebar}
-            className="absolute right-0 mr-4 -top-4 tablet2:hidden"
-          >
-            {showMenuIcon ? (
-              <Menu
-                className={`w-8 h-8 ${
-                  scrolling ? "text-secondary" : "text-white"
-                }`}
+          <div className="flex items-center justify-between w-full relative">
+            <ScrollLink
+              to="home"
+              className="cursor-pointer max-w-[300px] "
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-100}
+              href="#"
+            >
+              <img
+                src={Logo}
+                alt="Logo"
+                className={`bg-transparent ${
+                  scrolling
+                    ? "w-[50%] phone2:w-[50%] phone3:w-[50%] tablet1:w-[50%] tablet2:w-[50%] desktop1:w-[50%] desktop2:w-[50%]"
+                    : " w-[80%] phone2:w-[80%] phone3:w-[80%] tablet1:w-[90%] tablet2:w-[90%] desktop1:w-[90%] desktop2:w-[90%]"
+                } transition-all duration-1000`}
               />
-            ) : (
-              <X
-                className={`w-8 h-8 ${
-                  scrolling ? "text-secondary" : "text-white"
-                }`}
-              />
-            )}
-          </button>
+            </ScrollLink>
+
+            <button onClick={toggleSidebar} className="desktop1:hidden">
+              {showMenuIcon ? (
+                <Menu
+                  className={`w-12 h-12 ${
+                    scrolling ? "text-secondary" : "text-white"
+                  }`}
+                />
+              ) : (
+                <X
+                  className={`w-12 h-12 ${
+                    scrolling ? "text-secondary" : "text-white"
+                  }`}
+                />
+              )}
+            </button>
+          </div>
+
           {showListGroup ? <ListGroup /> : null}
         </Navbar>
         <div
