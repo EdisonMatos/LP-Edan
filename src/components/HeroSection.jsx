@@ -29,13 +29,13 @@ export default function HeroSection() {
     <div className="content" id="home">
       <div className="h-auto full">
         <div
-          className="w-full bg-center bg-cover tablet1:pt-8 pb-[80px] content md:min-h-0"
+          className="w-full bg-center bg-cover tablet1:pt-8 desktop1:pt-10 pb-[50px] content md:min-h-0"
           style={{ backgroundImage: "url(" + bgImage + ")" }}
         >
-          <div className="flex flex-col py-[36px] tablet1:py-[76px] tablet2:py-[38px] desktop1:py-[96px] desktop1:flex-row items-center justify-between w-full h-full mt-12 text-white tablet1:flex-nowrap font-poppins">
+          <div className="flex flex-col py-[36px] tablet1:py-[76px] tablet2:py-[38px] desktop1:py-[96px] desktop1:flex-row items-center justify-between w-full h-full mt-16 desktop1:mt-8 text-white tablet1:flex-nowrap font-poppins">
             <div className="w-full tablet2:flex-1 tablet2:mr-11 ">
-              <div className="mt-16 tablet1:mt-4 tablet2:mt-16 ">
-                <h1 className="mb-2 font-bold leading-7 text-title4 phone3:text-title6 phone3:leading-[50px] tablet1:leading-none tablet1:text-title6 tablet2:text-title6">
+              <div className="mt-16 tablet1:mt-4 tablet2:mt-16 desktop1:mt-0 ">
+                <h1 className="mb-2 font-bold leading-7 text-title4 phone3:text-title6 phone3:leading-[50px] tablet1:leading-none tablet1:text-title6 tablet2:text-title">
                   <MotionDivLeftToRight>Solução e</MotionDivLeftToRight>
                 </h1>
                 <h1 className="font-bold leading-7 mb-8 text-title4 phone3:text-title6 phone3:leading-[50px] tablet1:leading-none tablet1:text-title6 tablet2:text-title6">
@@ -84,7 +84,7 @@ export default function HeroSection() {
                   showNav={true} // Ativando a navegação
                   showFullscreenButton={false} // Desativando botão de tela cheia
                   useBrowserFullscreen={false} // Desativando o uso de tela cheia do navegador
-                  showBullets={true} 
+                  showBullets={true}
                   additionalClass="custom-gallery"
                 />
                 <style>
