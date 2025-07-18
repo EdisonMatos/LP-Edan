@@ -86,7 +86,7 @@ export default function NavbarSection() {
                 className={`bg-transparent ${
                   scrolling
                     ? "w-[50%] phone2:w-[50%] phone3:w-[50%] tablet1:w-[50%] tablet2:w-[50%] desktop1:w-[50%] desktop2:w-[50%]"
-                    : " w-[80%] phone2:w-[80%] phone3:w-[80%] tablet1:w-[90%] tablet2:w-[90%] desktop1:w-[90%] desktop2:w-[90%]"
+                    : " w-[100%] "
                 } transition-all duration-1000`}
               />
             </ScrollLink>
