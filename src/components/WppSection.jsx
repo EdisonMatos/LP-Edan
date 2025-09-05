@@ -29,7 +29,7 @@ export default function WppSection() {
                 <Button
                   aria-label="Botão de contato"
                   label="Clique aqui"
-                  buttonLink="https://wa.me/5573999612263"
+                  buttonLink="https://wa.me/5573982401515"
                   animation
                   className="text-white"
                   icon={

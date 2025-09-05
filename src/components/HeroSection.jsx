@@ -52,7 +52,7 @@ export default function HeroSection() {
                   <Button
                     aria-label="Botão de contato"
                     label="Falar no Whatsapp"
-                    buttonLink="https://wa.me/5573999612263"
+                    buttonLink="https://wa.me/5573982401515"
                     animation
                     className="w-auto mb-[8px] flex"
                     icon={

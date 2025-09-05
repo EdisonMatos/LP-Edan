@@ -42,7 +42,7 @@ export default function FooterSection() {
             <HonrizontalIconAndText
               img={imgWhatsapp}
               imgAlt="Edan Whatsapp Contabilidade Ilhéus"
-              text="(73) 9.9961-2263"
+              text="(73) 98240-1515"
             />
             <HonrizontalIconAndText
               img={imgCalendar}
