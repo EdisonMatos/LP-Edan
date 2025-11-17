@@ -8,6 +8,7 @@ import imgLogo from "../style/assets/images/Logo.png";
 import imgInstagram from "../style/assets/icons/footer/instagramIcon.png";
 import imgFacebook from "../style/assets/icons/footer/facebookIcon.png";
 import { Link } from "react-scroll";
+import { Mail } from "lucide-react";
 
 export default function FooterSection() {
   return (
@@ -44,6 +45,14 @@ export default function FooterSection() {
               imgAlt="Edan Whatsapp Contabilidade Ilhéus"
               text="(73) 98240-1515"
             />
+
+            <p className="flex gap-2 my-[2%] tablet1:my-[3%] items-center">
+              <span>
+                <Mail width="18" />
+              </span>
+              E-mail: edancontabilidade@gmail.com
+            </p>
+
             <HonrizontalIconAndText
               img={imgCalendar}
               imgAlt="Edan Calendário Contabilidade Ilhéus"
