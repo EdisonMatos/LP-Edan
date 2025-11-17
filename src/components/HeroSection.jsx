@@ -49,11 +49,12 @@ export default function HeroSection() {
                     os desafios contábeis do seu negócio.
                   </p>
                 </MotionDivLeftToRight>
-                <div className="flex flex-col tablet2:flex-row gap-4">
+                <div className="flex flex-col gap-4">
                   <MotionDivLeftToRight>
                     <Button
                       aria-label="Botão de contato"
                       label="Falar no Whatsapp"
+                      size="small"
                       buttonLink="https://wa.me/5573982401515"
                       animation
                       className="w-auto mb-[8px] flex"
@@ -75,6 +76,7 @@ export default function HeroSection() {
                     <Button
                       aria-label="Botão de contato por e-mail"
                       label="Envie um e-mail"
+                      size="small"
                       buttonLink="mailto:edancontabilidade@gmail.com"
                       animation
                       className="w-auto mb-[8px] flex"
