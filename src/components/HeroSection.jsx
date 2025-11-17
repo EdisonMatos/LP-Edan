@@ -79,7 +79,8 @@ export default function HeroSection() {
                       size="small"
                       buttonLink="mailto:edancontabilidade@gmail.com"
                       animation
-                      className="w-fit mb-[8px] flex"
+                      color="bg-white"
+                      className="w-fit mb-[8px] flex text-primary"
                       icon={<Mail />}
                     />
                   </MotionDivLeftToRight>
