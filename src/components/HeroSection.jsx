@@ -34,7 +34,7 @@ export default function HeroSection() {
           style={{ backgroundImage: "url(" + bgImage + ")" }}
         >
           <div className="flex flex-col py-[36px] tablet1:py-[76px] tablet2:py-[38px] desktop1:py-[96px] desktop1:flex-row items-center justify-between w-full h-full mt-16 desktop1:mt-8 text-white tablet1:flex-nowrap font-poppins">
-            <div className="w-full tablet2:flex-1 tablet2:mr-11 ">
+            <div className="w-full tablet2:flex-1 desktop1:mr-11 ">
               <div className="mt-16 tablet1:mt-4 tablet2:mt-16 desktop1:mt-0 ">
                 <h1 className="mb-2 font-bold leading-7 text-title4 phone3:text-title6 phone3:leading-[50px] tablet1:leading-none tablet1:text-title6 tablet2:text-title">
                   <MotionDivLeftToRight>Solução e</MotionDivLeftToRight>
@@ -49,7 +49,7 @@ export default function HeroSection() {
                     os desafios contábeis do seu negócio.
                   </p>
                 </MotionDivLeftToRight>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col tablet1:flex-row gap-4">
                   <MotionDivLeftToRight>
                     <Button
                       aria-label="Botão de contato"
@@ -79,14 +79,14 @@ export default function HeroSection() {
                       size="small"
                       buttonLink="mailto:edancontabilidade@gmail.com"
                       animation
-                      className="w-auto mb-[8px] flex"
+                      className="w-fit mb-[8px] flex"
                       icon={<Mail />}
                     />
                   </MotionDivLeftToRight>
                 </div>
               </div>
             </div>
-            <div className="w-full tablet2:w-auto phone1:mt-0 ">
+            <div className="w-full desktop1:w-auto phone1:mt-0 mb-6 desktop1:mb-0">
               <MotionDivRightToLeft>
                 {/* <WhatsappForm /> */}{" "}
                 <MotionDivLeftToRight>
@@ -108,6 +108,14 @@ export default function HeroSection() {
                       height: 230px; 
                       width: 100%;
                       object-fit: cover;
+                    }
+
+                    @media (min-width: 768px) and (max-width: 1023px) {
+                      .custom-gallery .image-gallery-slide img {
+                        height: auto; 
+                        width: 100%;
+                        object-fit: cover;
+                      }
                     }
 
                     .custom-gallery .image-gallery-thumbnails img {

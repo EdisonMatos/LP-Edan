@@ -39,10 +39,10 @@ export default function Button({
       {...(removeAnchor ? {} : { href: buttonLink })}
       className=""
     >
-      <Animation>
+      <Animation className="w-fit">
         <button
           onClick={onClick}
-          className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-darker hover:scale-110`}
+          className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-darker hover:scale-110 w-fit`}
         >
           <div className={`flex items-center text-center ${gap} min-h-[24px]`}>
             <div className="">{icon}</div>
