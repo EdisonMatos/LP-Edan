@@ -30,7 +30,7 @@ export default function LinksSection() {
             title="Cartão CNPJ"
             target="_blank"
             rel="noopener noreferrer"
-            link="https://servicos.receitafederal.gov.br/servico/certidoes/#/home/cnpj"
+            link="https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp"
           />,
           <ImgAndTitleCard
             key={1}
