@@ -33,8 +33,8 @@ export default function HeroSection() {
           className="w-full bg-center bg-cover tablet1:pt-8 desktop1:pt-10 pb-[50px] content md:min-h-0"
           style={{ backgroundImage: "url(" + bgImage + ")" }}
         >
-          <div className="flex flex-col py-[36px] tablet1:py-[76px] tablet2:py-[38px] desktop1:py-[96px] desktop1:flex-row items-center justify-between w-full h-full mt-16 desktop1:mt-8 text-white tablet1:flex-nowrap font-poppins">
-            <div className="w-full tablet2:flex-1 desktop1:mr-11 ">
+          <div className="flex flex-col py-[36px] tablet1:py-[76px] tablet2:py-[38px] desktop1:py-[96px] desktop1:flex-row items-center justify-between w-full h-full mt-24 desktop1:mt-16 text-white tablet1:flex-nowrap font-poppins">
+            <div className="w-full tablet2:flex-1 desktop1:mr-11">
               <div className="mt-16 tablet1:mt-4 tablet2:mt-16 desktop1:mt-0 ">
                 <h1 className="mb-2 font-bold leading-7 text-title4 phone3:text-title6 phone3:leading-[50px] tablet1:leading-none tablet1:text-title6 tablet2:text-title">
                   <MotionDivLeftToRight>Solução e</MotionDivLeftToRight>
@@ -49,7 +49,7 @@ export default function HeroSection() {
                     os desafios contábeis do seu negócio.
                   </p>
                 </MotionDivLeftToRight>
-                <div className="flex flex-col tablet1:flex-row gap-4">
+                <div className="flex flex-col gap-4 tablet1:flex-row">
                   <MotionDivLeftToRight>
                     <Button
                       aria-label="Botão de contato"
@@ -87,11 +87,11 @@ export default function HeroSection() {
                 </div>
               </div>
             </div>
-            <div className="w-full desktop1:w-auto phone1:mt-0 mb-6 desktop1:mb-0">
+            <div className="w-full mb-6 desktop1:w-auto phone1:mt-0 desktop1:mb-0">
               <MotionDivRightToLeft>
                 {/* <WhatsappForm /> */}{" "}
                 <MotionDivLeftToRight>
-                  <p className="text-paragraph3 pb-6 tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4">
+                  <p className="pb-6 text-paragraph3 tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4">
                     Confira nosso novo escritório no Centro 👇
                   </p>
                 </MotionDivLeftToRight>
