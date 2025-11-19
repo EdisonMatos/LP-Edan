@@ -22,12 +22,12 @@ export default function ResultsSection() {
           />
           <ResultsCard
             img={imgIcon}
-            number={<AnimatedCounter endValue={85} />}
+            number={<AnimatedCounter endValue={20} />}
             text="Empresas abertas anualmente."
           />
           <ResultsCard
             img={imgIcon}
-            number={<AnimatedCounter endValue={650} />}
+            number={<AnimatedCounter endValue={300} />}
             text="Impostos de Renda feitos anualmente."
           />
           <ResultsCard
