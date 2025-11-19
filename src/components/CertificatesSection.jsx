@@ -27,7 +27,7 @@ export default function CertificatesSection() {
             title="CND Receita e Previdência Contabilidade Ilhéus"
             target="_blank"
             rel="noopener noreferrer"
-            link="https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
+            link="https://servicos.receitafederal.gov.br/servico/certidoes/#/home/cnpj"
           />,
           <ImgAndTitleCard
             key={2}
