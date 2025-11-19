@@ -23,8 +23,8 @@ export default function CertificatesSection() {
           <ImgAndTitleCard
             key={1}
             img={imgReceitaFederal}
-            imgDescription="Receita Federal Contabilidade Ilhéus"
-            title="CND Receita e Previdência Contabilidade Ilhéus"
+            imgDescription="Receita Federal"
+            title="CND Receita e Previdência"
             target="_blank"
             rel="noopener noreferrer"
             link="https://servicos.receitafederal.gov.br/servico/certidoes/#/home/cnpj"
@@ -32,7 +32,7 @@ export default function CertificatesSection() {
           <ImgAndTitleCard
             key={2}
             img={imgTrabalhista}
-            imgDescription="Certidão Trabalhista Contabilidade Ilhéus"
+            imgDescription="Certidão Trabalhista"
             title="CDT Débitos Trabalhistas"
             target="_blank"
             rel="noopener noreferrer"
