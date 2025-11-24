@@ -9,6 +9,7 @@ import heroImg3 from "../style/assets/images/hero/imgHero4.jpg";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Button from "./interactives/Button";
 import { Mail } from "lucide-react";
+import { useState } from "react";
 
 export default function HeroSection() {
   const images = [
@@ -25,6 +26,23 @@ export default function HeroSection() {
       thumbnail: heroImg3,
     },
   ];
+
+  const [copyNumber, setCopyNumber] = useState(false);
+  const [copyEmail, setCopyEmail] = useState(false);
+
+  const handleNumber = () => {
+    const number = "(73) 999612263";
+    navigator.clipboard.writeText(number);
+    setCopyNumber(true);
+    alert("Número copiado!");
+  };
+
+  const handleEmail = () => {
+    const email = "edison.matos@live.com";
+    navigator.clipboard.writeText(email);
+    setCopyEmail(true);
+    alert("E-mail copiado!");
+  };
 
   return (
     <div className="content" id="home">
@@ -71,6 +89,8 @@ export default function HeroSection() {
                         </svg>
                       }
                     />
+
+                    <a onClick={handleNumber}> (73) 999612263</a>
                   </MotionDivLeftToRight>
                   <MotionDivLeftToRight>
                     <Button
@@ -83,6 +103,7 @@ export default function HeroSection() {
                       className="w-fit mb-[8px] flex text-primary"
                       icon={<Mail />}
                     />
+                    <a onClick={handleEmail}> edison.matos@live.com </a>
                   </MotionDivLeftToRight>
                 </div>
               </div>
