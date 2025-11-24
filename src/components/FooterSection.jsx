@@ -1,15 +1,11 @@
 import HonrizontalIconAndText from "./SectionComponents/HorizontalIconAndText";
 import FooterCardContent from "./SectionComponents/FooterCardContent";
 import SectionContent from "./SectionComponents/SectionContent";
-import imgHome from "../style/assets/icons/footer/homeIcon.png";
-import imgWhatsapp from "../style/assets/icons/footer/whatsappIcon.png";
-import imgCalendar from "../style/assets/icons/footer/calendarIcon.png";
 import imgLogo from "../style/assets/images/Logo.png";
 import imgInstagram from "../style/assets/icons/footer/instagramIcon.png";
 import imgFacebook from "../style/assets/icons/footer/facebookIcon.png";
 import { Link } from "react-scroll";
 import { Mail } from "lucide-react";
-import { House } from "lucide-react";
 
 export default function FooterSection() {
   return (
