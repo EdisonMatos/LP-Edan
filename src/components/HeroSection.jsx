@@ -27,13 +27,13 @@ export default function HeroSection() {
   ];
 
   const handleNumber = () => {
-    const number = "(73) 999612263";
+    const number = "(73) 98240-1515";
     navigator.clipboard.writeText(number);
     alert("Número copiado!");
   };
 
   const handleEmail = () => {
-    const email = "edison.matos@live.com";
+    const email = "edancontabilidade@gmail.com";
     navigator.clipboard.writeText(email);
     alert("E-mail copiado!");
   };
@@ -84,7 +84,10 @@ export default function HeroSection() {
                       }
                     />
 
-                    <a onClick={handleNumber}> (73) 999612263</a>
+                    <button className="mt-4" onClick={handleNumber}>
+                      {" "}
+                      (73) 98240-1515
+                    </button>
                   </MotionDivLeftToRight>
                   <MotionDivLeftToRight>
                     <Button
@@ -97,7 +100,10 @@ export default function HeroSection() {
                       className="w-fit mb-[8px] flex text-primary"
                       icon={<Mail />}
                     />
-                    <a onClick={handleEmail}> edison.matos@live.com </a>
+                    <button className="mt-4" onClick={handleEmail}>
+                      {" "}
+                      edancontabilidade@gmail.com{" "}
+                    </button>
                   </MotionDivLeftToRight>
                 </div>
               </div>
