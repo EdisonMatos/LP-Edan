@@ -8,7 +8,7 @@ import heroImg2 from "../style/assets/images/hero/imgHero3.jpg";
 import heroImg3 from "../style/assets/images/hero/imgHero4.jpg";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Button from "./interactives/Button";
-import { Mail } from "lucide-react";
+import { Copy, Mail } from "lucide-react";
 
 export default function HeroSection() {
   const images = [
@@ -27,49 +27,52 @@ export default function HeroSection() {
   ];
 
   const handleNumber = () => {
-    const number = "(73) 999612263";
+    const number = "(73) 98240-1515";
     navigator.clipboard.writeText(number);
-    alert("Número copiado!");
+    alert(`Número copiado!`);
   };
 
   const handleEmail = () => {
-    const email = "edison.matos@live.com";
+    const email = "edancontabilidade@gmail.com";
     navigator.clipboard.writeText(email);
-    alert("E-mail copiado!");
+    alert(`E-mail copiado!`);
   };
 
   return (
     <div className="content" id="home">
       <div className="h-auto full">
         <div
-          className="w-full bg-center bg-cover tablet1:pt-8 desktop1:pt-10 pb-[50px] content md:min-h-0"
+          className="w-full relative bg-center bg-cover tablet1:pt-8 desktop1:py-10 content md:min-h-full"
           style={{ backgroundImage: "url(" + bgImage + ")" }}
         >
-          <div className="flex flex-col py-[36px] tablet1:py-[76px] tablet2:py-[38px] desktop1:py-[96px] desktop1:flex-row items-center justify-between w-full h-full mt-24 desktop1:mt-16 text-white tablet1:flex-nowrap font-poppins">
-            <div className="w-full tablet2:flex-1 desktop1:mr-11">
-              <div className="mt-16 tablet1:mt-4 tablet2:mt-16 desktop1:mt-0 ">
-                <h1 className="mb-2 font-bold leading-7 text-title4 phone3:text-title6 phone3:leading-[50px] tablet1:leading-none tablet1:text-title6 tablet2:text-title">
+          <div className="absolute inset-0 full z-0 bg-black/55"></div>
+
+          <div className="flex flex-col z-10 tablet1:py-[76px] tablet2:py-[38px] desktop1:py-[96px] desktop1:flex-row items-center desktop1:items-center justify-between w-full h-full pt-36 phone2:pt-44 tablet1:pt-32 tablet2:pt-24 pb-14 desktop1:mt-16 text-white tablet1:flex-nowrap font-poppins">
+            <div className="w-full tablet2:flex-1 desktop1:mr-11 ">
+              <div className="tablet1:mt-4 tablet2:mt-16 desktop1:mt-0 flex flex-col items-center desktop1:items-start text-center ">
+                <h1 className="mb-2 font-bold leading-9 text-title4 phone3:text-title6 phone3:leading-[50px] tablet1:leading-none tablet1:text-title6 tablet2:text-title6">
                   <MotionDivLeftToRight>Solução e</MotionDivLeftToRight>
                 </h1>
                 <h1 className="font-bold leading-7 mb-8 text-title4 phone3:text-title6 phone3:leading-[50px] tablet1:leading-none tablet1:text-title6 tablet2:text-title6">
                   <MotionDivLeftToRight>Resultado!</MotionDivLeftToRight>
                 </h1>
                 <MotionDivLeftToRight>
-                  <p className="text-paragraph3 mb-[32px] tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4">
+                  <p className="text-paragraph3 mb-[32px] tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4 desktop1:text-start">
                     Experiência que Conta! Com mais de 40 anos no mercado
                     empresarial, oferecemos conhecimento sólido para lidar com
                     os desafios contábeis do seu negócio.
                   </p>
                 </MotionDivLeftToRight>
-                <div className="flex flex-col gap-4 tablet1:flex-row">
+                <div className="flex flex-col gap-8 tablet1:flex-row items-center desktop1:items-start justify-center">
                   <MotionDivLeftToRight>
                     <Button
                       aria-label="Botão de contato"
                       label="Falar no Whatsapp"
+                      textclassName="text-paragraph2"
                       size="small"
                       buttonLink="https://wa.me/5573982401515"
                       animation
-                      className="w-auto mb-[8px] flex"
+                      className="w-auto flex"
                       icon={
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +87,16 @@ export default function HeroSection() {
                       }
                     />
 
-                    <a onClick={handleNumber}> (73) 999612263</a>
+                    <button
+                      className="mt-4 flex text-paragraph2 gap-2 m-auto desktop1:m-0 desktop1:mt-4 items-center hover:scale-105 hover:duration-300"
+                      onClick={handleNumber}
+                    >
+                      {" "}
+                      (73) 98240-1515{" "}
+                      <span>
+                        <Copy width={18} />
+                      </span>
+                    </button>
                   </MotionDivLeftToRight>
                   <MotionDivLeftToRight>
                     <Button
@@ -94,22 +106,31 @@ export default function HeroSection() {
                       buttonLink="mailto:edancontabilidade@gmail.com"
                       animation
                       color="bg-white"
-                      className="w-fit mb-[8px] flex text-primary"
+                      className="w-auto m-auto desktop1:m-0 flex text-primary"
                       icon={<Mail />}
                     />
-                    <a onClick={handleEmail}> edison.matos@live.com </a>
+                    <button
+                      className="mt-4 flex text-paragraph2 gap-2 m-auto desktop1:m-0 desktop1:mt-4 items-center hover:scale-105 hover:duration-300"
+                      onClick={handleEmail}
+                    >
+                      {" "}
+                      edancontabilidade@gmail.com{" "}
+                      <span>
+                        <Copy width={18} />
+                      </span>
+                    </button>
                   </MotionDivLeftToRight>
                 </div>
               </div>
             </div>
-            <div className="w-full mb-6 desktop1:w-auto phone1:mt-0 desktop1:mb-0">
+            <div className="w-full max-w-[517px] desktop1:max-w-[45%] pt-12 desktop1:w-auto desktop1:pt-0 desktop1:mb-0">
               <MotionDivRightToLeft>
                 {/* <WhatsappForm /> */}{" "}
-                <MotionDivLeftToRight>
-                  <p className="pb-6 text-paragraph3 tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4">
+                {/* <MotionDivLeftToRight>
+                  <p className="pb-6 text-paragraph3 tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4 text-center desktop1:text-start">
                     Confira nosso novo escritório no Centro 👇
                   </p>
-                </MotionDivLeftToRight>
+                </MotionDivLeftToRight> */}
                 <ImageGallery
                   items={images}
                   showNav={true} // Ativando a navegação
@@ -120,17 +141,44 @@ export default function HeroSection() {
                 />
                 <style>
                   {`
+                   .image-gallery-slide  .image-gallery-center {
+                    display: flex !important;
+                      justify-content: center !important;
+                      align-items: center !important;
+                      width: 332px; !important;
+                   }
+
+                  .custom-gallery .image-gallery-slide {
+                     display: flex !important;
+                      justify-content: center !important;
+                      align-items: center !important;
+                      
+                  }
+
+                     .image-gallery-thumbnail[aria-pressed="true"] {
+                        border: 3px solid #027738;
+                        border-radius: 5px;
+                      }
+
+                      @media (hover: hover) and (pointer: fine) {
+                          .image-gallery-icon:hover {
+                              color: #027738;
+                          }
+                      }
+
                     .custom-gallery .image-gallery-slide img {
-                      height: 230px; 
-                      width: 100%;
+                     
                       object-fit: cover;
+                      border-radius: 5px;
                     }
 
                     @media (min-width: 768px) and (max-width: 1023px) {
                       .custom-gallery .image-gallery-slide img {
                         height: auto; 
                         width: 100%;
+                        
                         object-fit: cover;
+                        
                       }
                     }
 
@@ -138,6 +186,7 @@ export default function HeroSection() {
                       height: 60px;  
                       width: 100px;  
                       object-fit: cover; 
+                      border-radius: 5px;
                     }
                   `}
                 </style>
