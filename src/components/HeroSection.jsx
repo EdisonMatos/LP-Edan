@@ -8,7 +8,7 @@ import heroImg2 from "../style/assets/images/hero/imgHero3.jpg";
 import heroImg3 from "../style/assets/images/hero/imgHero4.jpg";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Button from "./interactives/Button";
-import { Mail } from "lucide-react";
+import { Copy, Mail } from "lucide-react";
 
 export default function HeroSection() {
   const images = [
@@ -84,9 +84,12 @@ export default function HeroSection() {
                       }
                     />
 
-                    <button className="mt-4" onClick={handleNumber}>
+                    <button className="mt-4 flex gap-2" onClick={handleNumber}>
                       {" "}
-                      (73) 98240-1515
+                      (73) 98240-1515{" "}
+                      <span>
+                        <Copy width={18} />
+                      </span>
                     </button>
                   </MotionDivLeftToRight>
                   <MotionDivLeftToRight>
@@ -100,9 +103,12 @@ export default function HeroSection() {
                       className="w-fit mb-[8px] flex text-primary"
                       icon={<Mail />}
                     />
-                    <button className="mt-4" onClick={handleEmail}>
+                    <button className="mt-4 flex gap-2" onClick={handleEmail}>
                       {" "}
                       edancontabilidade@gmail.com{" "}
+                      <span>
+                        <Copy width={18} />
+                      </span>
                     </button>
                   </MotionDivLeftToRight>
                 </div>
