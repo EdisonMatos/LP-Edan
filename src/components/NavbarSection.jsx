@@ -63,7 +63,7 @@ export default function NavbarSection() {
   return (
     <div className="content">
       <div
-        className={`fixed z-10 w-full h-auto desktop1:h-25 bg-white bg-opacity-0 ${
+        className={`fixed z-30 w-full h-auto desktop1:h-25 bg-white bg-opacity-0 ${
           scrolling
             ? "bg-opacity-100 shadow-lg bg-transition-opacity duration-1000"
             : ""
