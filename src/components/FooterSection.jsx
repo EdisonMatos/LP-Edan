@@ -183,7 +183,7 @@ export default function FooterSection() {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-100}
+                offset={-160}
               >
                 <div className="mb-4">
                   <span className="cursor-pointer">SERVIÇOS</span>
@@ -195,7 +195,7 @@ export default function FooterSection() {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-100}
+                offset={-180}
               >
                 <div className="mb-4">
                   <span className="cursor-pointer">APLICATIVO EDAN</span>
@@ -207,7 +207,7 @@ export default function FooterSection() {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-100}
+                offset={-160}
               >
                 <div className="mb-4">
                   <span className="cursor-pointer">LINKS ÚTEIS</span>
@@ -221,7 +221,7 @@ export default function FooterSection() {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-100}
+                offset={-160}
               >
                 <div className="mb-4">
                   <span className="cursor-pointer">SOBRE NÓS</span>
@@ -233,7 +233,7 @@ export default function FooterSection() {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-100}
+                offset={-160}
               >
                 <div className="mb-4">
                   <span className="cursor-pointer">CERTIDÕES</span>
@@ -245,7 +245,7 @@ export default function FooterSection() {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-170}
+                offset={-200}
               >
                 <div className="mb-4">
                   <span className="cursor-pointer">CONTATO</span>
