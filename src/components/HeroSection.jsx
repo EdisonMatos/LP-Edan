@@ -29,7 +29,7 @@ export default function HeroSection() {
   const handleNumber = () => {
     const number = "(73) 98240-1515";
     navigator.clipboard.writeText(number);
-    alert(`Número copiado!`);
+    alert(`Número de telefone copiado!`);
   };
 
   const handleEmail = () => {
@@ -43,13 +43,14 @@ export default function HeroSection() {
       <div className="h-auto full">
         <div
           className="w-full relative bg-center bg-cover tablet1:pt-8 desktop1:pb-10 content md:min-h-full"
+         
           style={{ backgroundImage: "url(" + bgImage + ")" }}
         >
-          <div className="absolute inset-0 full z-0 bg-black/55"></div>
+          <div className="absolute inset-0 z-0 full bg-black/55"></div>
 
           <div className="flex flex-col z-10 tablet1:py-[76px] tablet2:py-[38px] desktop1:py-[96px] desktop1:flex-row items-center desktop1:items-center justify-between w-full h-full pt-36 phone2:pt-44 tablet1:pt-32 tablet2:pt-24 pb-14 desktop1:pb-10 desktop1:pt-32 desktop1:mt-0 text-white tablet1:flex-nowrap font-poppins">
             <div className="w-full tablet2:flex-1 desktop1:mr-11 ">
-              <div className="tablet1:mt-4 tablet2:mt-16 desktop1:mt-0 flex flex-col items-center desktop1:items-start text-center ">
+              <div className="flex flex-col items-center text-center tablet1:mt-4 tablet2:mt-16 desktop1:mt-0 desktop1:items-start ">
                 <h1 className="mb-2 font-bold leading-9 text-title4 phone3:text-title6 phone3:leading-[50px] tablet1:leading-none tablet1:text-title6 tablet2:text-title6">
                   <MotionDivLeftToRight>Solução e</MotionDivLeftToRight>
                 </h1>
@@ -63,7 +64,7 @@ export default function HeroSection() {
                     os desafios contábeis do seu negócio.
                   </p>
                 </MotionDivLeftToRight>
-                <div className="flex flex-col gap-8 tablet1:flex-row items-center desktop1:items-start justify-center">
+                <div className="flex flex-col items-center justify-center gap-8 tablet1:flex-row desktop1:items-start">
                   <MotionDivLeftToRight>
                     <Button
                       aria-label="Botão de contato"
@@ -72,7 +73,7 @@ export default function HeroSection() {
                       size="small"
                       buttonLink="https://wa.me/5573982401515"
                       animation
-                      className="w-auto flex"
+                      className="flex w-auto"
                       icon={
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +89,7 @@ export default function HeroSection() {
                     />
 
                     <button
-                      className="mt-4 flex text-paragraph2 gap-2 m-auto desktop1:m-0 desktop1:mt-4 items-center hover:scale-105 hover:duration-300"
+                      className="flex items-center gap-2 m-auto mt-4 text-paragraph2 desktop1:m-0 desktop1:mt-4 hover:scale-105 hover:duration-300"
                       onClick={handleNumber}
                     >
                       {" "}
@@ -106,11 +107,11 @@ export default function HeroSection() {
                       buttonLink="mailto:edancontabilidade@gmail.com"
                       animation
                       color="bg-white"
-                      className="w-auto m-auto desktop1:m-0 flex text-primary"
+                      className="flex w-auto m-auto desktop1:m-0 text-primary"
                       icon={<Mail />}
                     />
                     <button
-                      className="mt-4 flex text-paragraph2 gap-2 m-auto desktop1:m-0 desktop1:mt-4 items-center hover:scale-105 hover:duration-300"
+                      className="flex items-center gap-2 m-auto mt-4 text-paragraph2 desktop1:m-0 desktop1:mt-4 hover:scale-105 hover:duration-300"
                       onClick={handleEmail}
                     >
                       {" "}
@@ -127,7 +128,7 @@ export default function HeroSection() {
               <MotionDivRightToLeft>
                 {/* <WhatsappForm /> */}{" "}
                 {/* <MotionDivLeftToRight>
-                  <p className="pb-6 text-paragraph3 tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4 text-center desktop1:text-start">
+                  <p className="pb-6 text-center text-paragraph3 tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4 desktop1:text-start">
                     Confira nosso novo escritório no Centro 👇
                   </p>
                 </MotionDivLeftToRight> */}
