@@ -42,12 +42,13 @@ export default function HeroSection() {
     <div className="content" id="home">
       <div className="h-auto full">
         <div
-          className="relative w-full bg-center bg-cover tablet1:pt-8 desktop1:py-10 content md:min-h-full"
+          className="w-full relative bg-center bg-cover tablet1:pt-8 desktop1:pb-10 content md:min-h-full"
+         
           style={{ backgroundImage: "url(" + bgImage + ")" }}
         >
           <div className="absolute inset-0 z-0 full bg-black/55"></div>
 
-          <div className="flex flex-col z-10 tablet1:py-[76px] tablet2:py-[38px] desktop1:py-[96px] desktop1:flex-row items-center desktop1:items-center justify-between w-full h-full pt-36 phone2:pt-44 tablet1:pt-32 tablet2:pt-24 pb-14 desktop1:mt-16 text-white tablet1:flex-nowrap font-poppins">
+          <div className="flex flex-col z-10 tablet1:py-[76px] tablet2:py-[38px] desktop1:py-[96px] desktop1:flex-row items-center desktop1:items-center justify-between w-full h-full pt-36 phone2:pt-44 tablet1:pt-32 tablet2:pt-24 pb-14 desktop1:pb-10 desktop1:pt-32 desktop1:mt-0 text-white tablet1:flex-nowrap font-poppins">
             <div className="w-full tablet2:flex-1 desktop1:mr-11 ">
               <div className="flex flex-col items-center text-center tablet1:mt-4 tablet2:mt-16 desktop1:mt-0 desktop1:items-start ">
                 <h1 className="mb-2 font-bold leading-9 text-title4 phone3:text-title6 phone3:leading-[50px] tablet1:leading-none tablet1:text-title6 tablet2:text-title6">
