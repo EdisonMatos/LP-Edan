@@ -68,7 +68,7 @@ export default function HeroSection() {
                     <Button
                       aria-label="Botão de contato"
                       label="Falar no Whatsapp"
-                      textclassName="text-paragraph2"
+                      textclassName="text-paragraph1"
                       size="small"
                       buttonLink="https://wa.me/5573982401515"
                       animation
@@ -102,6 +102,7 @@ export default function HeroSection() {
                     <Button
                       aria-label="Botão de contato por e-mail"
                       label="Envie um e-mail"
+                      textclassName="text-paragraph2"
                       size="small"
                       buttonLink="mailto:edancontabilidade@gmail.com"
                       animation
