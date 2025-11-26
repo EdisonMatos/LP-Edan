@@ -43,7 +43,6 @@ export default function HeroSection() {
       <div className="h-auto full">
         <div
           className="w-full relative bg-center bg-cover tablet1:pt-8 desktop1:pb-10 content md:min-h-full"
-         
           style={{ backgroundImage: "url(" + bgImage + ")" }}
         >
           <div className="absolute inset-0 z-0 full bg-black/55"></div>
@@ -64,7 +63,7 @@ export default function HeroSection() {
                     os desafios contábeis do seu negócio.
                   </p>
                 </MotionDivLeftToRight>
-                <div className="flex flex-col items-center justify-center gap-8 tablet1:flex-row desktop1:items-start">
+                <div className="flex flex-col items-center justify-center gap-8 tablet1:flex-row desktop1:justify-start desktop1:items-start w-full">
                   <MotionDivLeftToRight>
                     <Button
                       aria-label="Botão de contato"
