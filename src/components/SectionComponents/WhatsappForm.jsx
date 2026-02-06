@@ -43,7 +43,7 @@ const WhatsappForm = () => {
       setErrors(validationErrors);
       return;
     }
-    const numeroWhatsapp = "+5573982401515";
+    const numeroWhatsapp = "+5573982302451";
 
     const mensagemWhatsapp = `Nome: ${name} \nTelefone: ${phone} \nEmail: ${email} \nMensagem: ${message}`;
 
@@ -126,7 +126,7 @@ const WhatsappForm = () => {
           />
         </div>
         {errors.name && (
-          <p className="-mt-2 -mb-1 text-paragraph3 text-red-500">
+          <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
             {errors.name}
           </p>
         )}
@@ -148,7 +148,7 @@ const WhatsappForm = () => {
           />
         </div>
         {errors.phone && (
-          <p className="-mt-2 -mb-1 text-paragraph3 text-red-500">
+          <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
             {errors.phone}
           </p>
         )}
@@ -170,12 +170,12 @@ const WhatsappForm = () => {
           />
         </div>
         {errors.email && !errors.email.includes("@") && (
-          <p className="-mt-2 -mb-1 text-paragraph3 text-red-500">
+          <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
             {errors.email}
           </p>
         )}
         {errors.email?.includes("@") && (
-          <p className="-mt-2 -mb-1 text-paragraph3 text-red-500">
+          <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
             {errors.email}
           </p>
         )}
@@ -197,7 +197,7 @@ const WhatsappForm = () => {
           />
         </div>
         {errors.message && (
-          <p className="-mt-2 -mb-1 text-paragraph3 text-red-500">
+          <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
             {errors.message}
           </p>
         )}

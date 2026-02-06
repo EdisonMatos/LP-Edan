@@ -31,7 +31,7 @@ export default function WppSection() {
                   label="Clique aqui"
                   size="small"
                   textclassName="text-paragraph1"
-                  buttonLink="https://wa.me/5573982401515"
+                  buttonLink="https://wa.me/5573982302451"
                   animation
                   className="text-white tablet1:hidden"
                   icon={
@@ -51,9 +51,9 @@ export default function WppSection() {
                 <Button
                   aria-label="Botão de contato"
                   label="Clique aqui"
-                  buttonLink="https://wa.me/5573982401515"
+                  buttonLink="https://wa.me/5573982302451"
                   animation
-                  className="text-white hidden tablet1:flex"
+                  className="hidden text-white tablet1:flex"
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

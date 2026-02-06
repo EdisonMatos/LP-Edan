@@ -32,7 +32,7 @@ function Main() {
       <AboutSection />
       <MarginBetweenSectionColored />
       <BackToTopButton />
-      <FloatingWhatsappButton />
+      {/* <FloatingWhatsappButton /> */}
     </div>
   );
 }

@@ -87,7 +87,7 @@ export default function FooterSection() {
                 </svg>
               }
               imgAlt="Edan Whatsapp Contabilidade Ilhéus"
-              text="(73) 98240-1515"
+              text="(73) 98230-2451"
             />
 
             <HonrizontalIconAndText

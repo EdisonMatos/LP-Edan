@@ -27,7 +27,7 @@ export default function HeroSection() {
   ];
 
   const handleNumber = () => {
-    const number = "(73) 98240-1515";
+    const number = "(73) 98230-2451";
     navigator.clipboard.writeText(number);
     alert(`Número de telefone copiado!`);
   };
@@ -42,8 +42,7 @@ export default function HeroSection() {
     <div className="content" id="home">
       <div className="h-auto full">
         <div
-          className="w-full relative bg-center bg-cover tablet1:pt-8 desktop1:pb-10 content md:min-h-full"
-         
+          className="relative w-full bg-center bg-cover tablet1:pt-8 desktop1:pb-10 content md:min-h-full"
           style={{ backgroundImage: "url(" + bgImage + ")" }}
         >
           <div className="absolute inset-0 z-0 full bg-black/55"></div>
@@ -52,28 +51,27 @@ export default function HeroSection() {
             <div className="w-full tablet2:flex-1 desktop1:mr-11 ">
               <div className="flex flex-col items-center text-center tablet1:mt-4 tablet2:mt-16 desktop1:mt-0 desktop1:items-start ">
                 <h1 className="mb-2 font-bold leading-9 text-title4 phone3:text-title6 phone3:leading-[50px] tablet1:leading-none tablet1:text-title6 tablet2:text-title6">
-                  <MotionDivLeftToRight>Solução e</MotionDivLeftToRight>
+                  <MotionDivLeftToRight>40 anos</MotionDivLeftToRight>
                 </h1>
                 <h1 className="font-bold leading-7 mb-8 text-title4 phone3:text-title6 phone3:leading-[50px] tablet1:leading-none tablet1:text-title6 tablet2:text-title6">
-                  <MotionDivLeftToRight>Resultado!</MotionDivLeftToRight>
+                  <MotionDivLeftToRight>de resultados!</MotionDivLeftToRight>
                 </h1>
                 <MotionDivLeftToRight>
                   <p className="text-paragraph3 mb-[32px] tablet2:text-paragraph4 phone3:text-title1 tablet1:text-paragraph3 tablet1:mr-4 desktop1:text-start">
-                    Experiência que Conta! Com mais de 40 anos no mercado
-                    empresarial, oferecemos conhecimento sólido para lidar com
-                    os desafios contábeis do seu negócio.
+                    Mais de 40 anos no mercado empresarial trazendo
+                    tranquilidade para nossos clientes!
                   </p>
                 </MotionDivLeftToRight>
-                <div className="flex flex-col items-center justify-center gap-8 tablet1:flex-row desktop1:items-start">
+                <div className="flex flex-col items-center justify-center gap-8 mt-6 tablet1:flex-row desktop1:items-start">
                   <MotionDivLeftToRight>
                     <Button
                       aria-label="Botão de contato"
-                      label="Falar no Whatsapp"
+                      label="Falar com um Contador no Whatsapp"
                       textclassName="text-paragraph2"
                       size="small"
-                      buttonLink="https://wa.me/5573982401515"
+                      buttonLink="https://wa.me/5573982302451"
                       animation
-                      className="flex w-auto"
+                      className="flex w-auto p-4 rounded-3xl"
                       icon={
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -88,18 +86,18 @@ export default function HeroSection() {
                       }
                     />
 
-                    <button
+                    {/* <button
                       className="flex items-center gap-2 m-auto mt-4 text-paragraph2 desktop1:m-0 desktop1:mt-4 hover:scale-105 hover:duration-300"
                       onClick={handleNumber}
                     >
                       {" "}
-                      (73) 98240-1515{" "}
+                      (73) 98230-2451{" "}
                       <span>
                         <Copy width={18} />
                       </span>
-                    </button>
+                    </button> */}
                   </MotionDivLeftToRight>
-                  <MotionDivLeftToRight>
+                  {/* <MotionDivLeftToRight>
                     <Button
                       aria-label="Botão de contato por e-mail"
                       label="Envie um e-mail"
@@ -120,7 +118,7 @@ export default function HeroSection() {
                         <Copy width={18} />
                       </span>
                     </button>
-                  </MotionDivLeftToRight>
+                  </MotionDivLeftToRight> */}
                 </div>
               </div>
             </div>
@@ -138,7 +136,7 @@ export default function HeroSection() {
                   showFullscreenButton={false} // Desativando botão de tela cheia
                   useBrowserFullscreen={false} // Desativando o uso de tela cheia do navegador
                   showBullets={true}
-                  additionalClass="custom-gallery"
+                  additionalClass="custom-gallery hidden lg:flex"
                 />
                 <style>
                   {`
