@@ -101,6 +101,7 @@ export default function HeroSection() {
                     <Button
                       aria-label="Botão de contato por e-mail"
                       label="Envie um e-mail"
+                      textclassName="text-paragraph2"
                       size="small"
                       buttonLink="mailto:edancontabilidade@gmail.com"
                       animation
